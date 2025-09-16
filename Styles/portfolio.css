@@ -15,6 +15,22 @@
     color: #474747;
 }
 
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+    columns: #181818;
+    color: #181818;
+    background-color: #FFFFFF;
+}
+.section-description{
+    font-weight: 18px;
+    color: #757575;
+    background-color: #FFFFFF;
+}
+.secondary-bg{
+    background-color: #ECD5C5;
+}
+
 .btn-primary{
     background-color: #FD6E0A;
     font-weight: bold;
@@ -36,6 +52,7 @@ nav .title{
     font-weight: 700;
     font-size: 45px;
     margin-left: 30px;
+    color: #181818;
 }
 
 nav ul{
@@ -63,6 +80,7 @@ nav li a{
 .banner-title{
     font-size: 85px;
     font-weight: bold;
+    color: #181818;
 }
 .banner-description{
     font-size: 18px;
@@ -85,4 +103,29 @@ nav li a{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left,bottom right;
+}
+
+/* About style */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+    /* background-color: #FFFFFF; */
+}
+
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.item-description{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
 }
